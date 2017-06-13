@@ -1,0 +1,47 @@
+.button{
+	margin: 20px;
+}
+
+.btn{
+	background-color: $grey-cool;
+	border: none;
+	border-radius: 1px;
+	text-decoration: none;
+	// padding: 10px;
+	color: #fff;
+	letter-spacing: 0.5px;
+	font-size: 0.7em;
+	width: 100px;
+	height: 35px;
+	margin-top: 10px;
+	margin-left: 10px;
+
+
+	&--submit{
+		background-color: $light-blue;
+	}
+
+	&--submit:hover{
+		background-color: $orange;
+	}
+
+	&--compare{
+		background-color: $magenta;
+	}
+
+	&--watch{
+		background-color: $red;
+	}
+
+	&__start{
+		background-color: #fff;
+		color: $blue;
+
+		&--blue{
+			border-color: $blue;
+			border: solid;
+			color: $blue;
+			background-color: #fff;
+		}
+	}
+}

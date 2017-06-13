@@ -1,0 +1,29 @@
+
+
+//Forms
+form {
+	padding: 10px;
+	margin-top: 40px;
+	color: #fff;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #FF5E00;
+    background-color: #002448;
+    // background-color: transparent;
+}
+
+input[type=text]:focus {
+    background-color: lightblue;
+}
+
+label{
+	color: #fff;
+	// margin-top: 5px;
+}
